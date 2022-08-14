@@ -1,0 +1,10 @@
+pip install git+github.com/butyr/python-transformer-chatbot.git
+from chatbots import BlenderBot
+
+
+bot = BlenderBot()
+bot.run()from chatbots import DialoGPT
+
+
+bot = DialoGPT()
+bot.run()
